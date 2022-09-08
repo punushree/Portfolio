@@ -1,0 +1,40 @@
+.footer
+{
+  background-color:#212529;
+  padding: 30px;
+  color: #eee !important;
+}
+.footer img
+{
+    padding-top: 5px;
+}
+.centrbox
+{
+  display: block;
+  margin: auto;
+
+}
+.justify-content-center
+{
+    position: relative;
+    z-index: 3;
+    background: #ffffff8f;
+    padding: 15px;
+
+    box-shadow: 3px 3px 3px #0a70704a;
+}
+.nav-link
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: #212529;
+    border-left: 1px transparent;
+    border-right: 1px transparent;
+    margin: 0 5px;
+}
+.nav-link:hover
+{
+    color: #ea593e;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
