@@ -1,6 +1,6 @@
 .banner
 {
-  background-image: url('./banner2.gif');
+  background-image: url('./assests/banner2.gif');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -160,7 +160,7 @@
   text-decoration: none;
   padding: 8px 15px;
   border: 1px solid #09706f;
-  margin: 0 5px;
+  margin: 5px;
   border-radius: 36px;
 }
 .skills:hover
