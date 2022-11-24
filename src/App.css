@@ -1,0 +1,177 @@
+.banner
+{
+  background-image: url('./assests/banner2.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  margin-top: -80px;
+}
+.banner img
+{
+  width: 200px;
+   display: block;
+   margin:auto;
+  padding-bottom: 15px;
+}
+.bannertext
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.bannertext span
+{
+  font-size: 26px;
+}
+.bannertext h1
+{
+  text-transform: uppercase;
+  font-size: 80px;
+  color: #09706f;
+}
+.bannertext h2
+{
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.custmbtn
+{
+  background-color: #ea593e;
+  padding: 10px 30px;
+  border: 2px solid transparent;
+  color: #fff;
+  border-radius: 0;
+}
+.custmbtn:hover
+{
+  background-color: transparent;
+  border: 2px solid #ea593e;
+  color: #212529;
+  outline: none;
+}
+.custmbtnsec
+{
+  background-color: #09706f;
+  padding: 10px 30px;
+  border: 2px solid transparent;
+  color: #fff;
+  border-radius: 0;
+}
+.custmbtnsec:hover
+{
+  background-color: transparent;
+  border: 2px solid #09706f;
+  color: #212529;
+  outline: none;
+}
+.abtsec .mainimg
+{
+  max-width: 100%;
+  width: 100%;
+  float: right;
+}
+.pb
+{
+  padding-bottom: 60px;
+}
+.pt
+{
+  padding-top: 60px;
+
+}
+.plr
+{
+  padding-left: 30px;
+  padding-right:30px;
+}
+.centrbox
+{
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+.fourthsec
+{
+  background-color: #f4f3f4;
+}
+.heading
+{
+  color: #ea593e;
+  
+}
+.p0
+{
+  padding: 0px;
+}
+.thirdsec img
+{
+  max-width: 100%;
+  min-width: 100%;
+}
+.box 
+{
+  position:relative;
+}
+.box  img 
+{
+  width:100%;
+}
+.box:after, .box:before
+{
+  position:absolute;
+  opacity:1;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.box:after
+{
+  content:'\A';
+  width:100%;
+   height:100%;
+  top:0; left:0;
+  background:rgba(9,112,111,0.8);
+}
+.box:before
+{
+  content: attr(data-content);
+  width:100%;
+  color:#fff;
+  z-index:1;
+  bottom:0;
+  padding:4px 10px;
+  text-align:center;
+  font-size: 28px;
+  top: 45%;
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+.box:hover:after, .box:hover:before {
+  opacity:0;
+}
+.skills
+{
+  color: #212529;
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 1px solid #09706f;
+  margin: 5px;
+  border-radius: 36px;
+}
+.skills:hover
+{
+  color: #fff;
+  background-color: #09706f;
+}
+.panel
+{
+  padding: 30px;
+  border-top:4px solid #09706f;
+  background-color: #fff;
+  border-radius: 6px;
+}
